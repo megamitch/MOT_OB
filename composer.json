@@ -1,0 +1,42 @@
+{
+    "name": "megamitch/mot-ob",
+    "description": "Official Business Trip Module for Mega Mitch Credit, Inc. employees",
+    "license": "MIT",
+    "type": "project",
+    "keywords": [
+        "megamitch",
+        "office tools",
+        "time clock",
+        "zf2"
+    ],
+    "homepage": "http://megamitch.ph",
+    "authors": [
+        {
+            "name": "Gab Amba",
+            "email": "gamba@gabbydgab.com",
+            "homepage": "http://www.gabbydgab.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MotOb\\": "src/MotOb/"
+        },
+        "classmap": [
+        "./Module.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MotObTest\\": "tests/MotObTest/"
+        }
+    },
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*",
+        "phpunit/php-invoker": "1.*",
+        "zendframework/zendframework": "2.3.*"
+    }
+}
+
