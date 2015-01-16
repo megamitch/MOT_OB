@@ -55,25 +55,6 @@ return [
                 ] //endofpages
             ]
         ],
-//        'header' => [
-//            "attendance-request" => [
-//                'label' => "Attendance Requests",
-//                'route' => "#",
-//                'icon' => "fa fa-calendar",
-//                'pages' => [
-//                  
-//                    "regular-ob" => [
-//                        'label' => "Regular OB",
-//                        'route' => "mot/ob/regular",
-//                        'icon' => "fa fa-calendar"
-//                    ],
-//                    "early-ob" => [
-//                        'label' => "Early OB",
-//                        'route' => "mot/ob/early-ob",
-//                        'icon' => "fa fa-calendar"
-//                    ]
-//                ]
-//            ]            
-//       ]
+
     ]
 ];
