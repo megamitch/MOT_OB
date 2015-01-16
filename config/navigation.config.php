@@ -31,16 +31,11 @@ return [
             
         ],
         'sidebar' => [
-            "attendance" => [
-                'label' => "Manage Attendance",
+            "OB" => [
+                'label' => "Manage OB",
                 'route' => "#",
                 'icon' => "fa fa-calendar",
                 "pages" => [
-                    "summary-report" => [ 
-                        'label' => "Attendance Summary Report",
-                         'route' => "mot/attendance/summary-report",
-                         'icon' => "fa fa-calendar"
-                     ],
                     "ob-status-monitoring" => [
                         'label' => "OB Status Monitoring",
                         'route' => "mot/ob/ob-status-monitoring",
@@ -60,29 +55,25 @@ return [
                 ] //endofpages
             ]
         ],
-        'header' => [
-            "attendance-request" => [
-                'label' => "Attendance Requests",
-                'route' => "#",
-                'icon' => "fa fa-calendar",
-                'pages' => [
-                    "attendance" => [
-                        'label' => "View Current DTR",
-                        'route' => "mot/attendance",
-                        'icon' => "fa fa-calendar"
-                    ],
-                    "regular-ob" => [
-                        'label' => "Regular OB",
-                        'route' => "mot/ob/regular",
-                        'icon' => "fa fa-calendar"
-                    ],
-                    "early-ob" => [
-                        'label' => "Early OB",
-                        'route' => "mot/ob/early-ob",
-                        'icon' => "fa fa-calendar"
-                    ]
-                ]
-            ]            
-       ]
+//        'header' => [
+//            "attendance-request" => [
+//                'label' => "Attendance Requests",
+//                'route' => "#",
+//                'icon' => "fa fa-calendar",
+//                'pages' => [
+//                  
+//                    "regular-ob" => [
+//                        'label' => "Regular OB",
+//                        'route' => "mot/ob/regular",
+//                        'icon' => "fa fa-calendar"
+//                    ],
+//                    "early-ob" => [
+//                        'label' => "Early OB",
+//                        'route' => "mot/ob/early-ob",
+//                        'icon' => "fa fa-calendar"
+//                    ]
+//                ]
+//            ]            
+//       ]
     ]
 ];
