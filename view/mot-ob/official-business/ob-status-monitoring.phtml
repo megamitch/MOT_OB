@@ -14,6 +14,7 @@
             ->prependFile($this->basePath('assets/jquery-ui/jquery-ui.min.js'));
     
     $this->inlineScript()->captureStart();
+    
     echo '
         $(function() {
             $( "#accordion" ).accordion();
@@ -21,6 +22,7 @@
         ';
     $this->inlineScript()->captureEnd();
 ?>
+
 <div class="pageheader">
      <div class="media">
          <div class="pageicon pull-left">
