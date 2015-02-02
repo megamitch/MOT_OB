@@ -31,7 +31,7 @@ return [
             
         ],
         'sidebar' => [
-            "OB" => [
+            "mot-ob" => [
                 'label' => "Manage OB",
                 'route' => "#",
                 'icon' => "fa fa-calendar",
@@ -50,9 +50,8 @@ return [
                         'label' => "OB Report",
                         'route' => "mot/ob/ob-report",
                         'icon' => "fa fa-calendar"
-                    ],
-
-                ] //endofpages
+                    ]
+                ]
             ]
         ],
 
