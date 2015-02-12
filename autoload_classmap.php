@@ -3,7 +3,7 @@
 /**
 * The MIT License
 *
-* Copyright (c) 2012-2014, contributors of Mega Mitch Credit, Inc. software project.
+* Copyright (c) 2012-2015, Mega Mitch, Inc.
 *
 * Permission is hereby granted, free of charge, to any person obtaining a copy
 * of this software and associated documentation files (the "Software"), to deal
@@ -23,4 +23,4 @@
 * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 * THE SOFTWARE.
 */
-return array();
+return [];
