@@ -1,27 +1,31 @@
 
-<?php $this->inlineScript()->prependFile($this->basePath() . '/assets/mot-ob/js/addrow.js');?>
+<?php 
+    $this->inlineScript()
+        ->prependFile($this->basePath('/assets/mot-ob/js/addrow.js'))
+;?>
 
 <div class="pageheader">
-     <div class="media">
-         <div class="pageicon pull-left">
-             <i class="fa fa-briefcase"></i>
-         </div>
-         <div class="media-body" style="padding-left: 5px">
-             <ul class="breadcrumb">
-                 <li>
-                     <a href="<?php echo $this->url('mot');?>"><i class="glyphicon glyphicon-home"></i></a>
-                 </li>
-                 <li><a href="#">Official Business</a></li>
-                 <li>Early OB Application</li>
-             </ul>
-             <h4>Early OB Application</h4>
-         </div>
-     </div>
+    <div class="media">
+        <div class="pageicon pull-left">
+            <i class="fa fa-briefcase"></i>
+        </div>
+        <div class="media-body" style="padding-left: 5px">
+            <ul class="breadcrumb">
+                <li>
+                    <a href="<?php echo $this->url('mot');?>">
+                        <i class="glyphicon glyphicon-home"></i>
+                    </a>
+                </li>
+                <li><a href="#">Official Business</a></li>
+                <li>Early OB Application</li>
+            </ul>
+            <h4>Early OB Application</h4>
+        </div>
+    </div>
 </div>
 <div class="contentpanel">
-        <div class="row">
-        <div class=" col-lg-12 col-md-12 col-xs-12 table-responsive">
-
+    <div class="row-fluid">
+        <div class="col-md-12 table-responsive">
             <table id="rowTable" class="table table-bordered table-condensed">
                 <tr>
                     <th colspan="2" align="center">Destination</th>
@@ -31,7 +35,6 @@
                     <th rowspan="2" align="center">Time</th>
                     <th rowspan="2" align="center">Action</th>
                 </tr>
-
                 <tr>
                     <td>From</td>
                     <td>To</td>
@@ -50,20 +53,15 @@
                         <button class="remCF" id="deleteRow"  type="button">
                             <i class="fa fa-minus-circle"></i>
                         </button>
-
                     </td>
                 </tr>
             </table>
-
-            <div align="right">
-                <button class="btn btn-default" type="button">Submit</button>
-                <button class="btn btn-default" id="addRowEarly" value="Add Row" type="button">
-                    <i class="fa fa-plus-circle"></i>
-                </button>
-            </div> 
+        </div>        
+        <div class="pull-right">
+            <button class="btn btn-default" type="button">Submit</button>
+            <button class="btn btn-default" id="addRowEarly" value="Add Row" type="button">
+                <i class="fa fa-plus-circle"></i>
+            </button>
         </div>
     </div>
-
-
-
 </div>
